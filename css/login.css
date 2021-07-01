@@ -1,0 +1,12 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: url("../images/loginbg.jpg") no-repeat center center fixed;
+    background-size: cover;
+}
+.container{
+    border: 12px solid black;
+}

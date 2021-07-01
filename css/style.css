@@ -1,0 +1,232 @@
+/*CSS Reset*/
+*{
+    margin: 0px; ;
+    padding: 0px;
+  box-sizing: border-box;
+    font-family: 'News Cycle', sans-serif;
+    font-family: 'Russo One', sans-serif;
+    
+   };
+
+
+/* CSS Variables */
+:root{
+    --navbar-height: 50px;
+}
+
+/* Navbar */
+#navbar{
+    position: absolute ;
+    display:flex;
+align-items:center;
+background:rgb(255, 255, 255);
+width: 100%;
+opacity: 0.9;
+font-family: 'Volkhov', serif;
+
+}
+#navbar ul{
+    display: flex;
+    font-family: 'Volkhov', serif;
+}
+
+
+
+#navbar ::before{
+    content:" ";
+    background-color:rgb(73, 138, 163);
+    position: absolute;
+
+
+
+
+}
+
+
+#navbar ul li{
+    /* color: white; */
+list-style: none;
+font-size: 1.2rem;
+margin-left: 70px;
+font-family: 'Volkhov', serif;
+}
+
+#navbar ul li a{
+    color:rgb(94, 248, 228);
+display: block;
+padding: 1px 10px;
+border-radius: 5px;
+text-decoration: none;
+
+background-color:black;
+}
+
+#navbar ul li a:hover{
+    color:white;
+    background-color:black;
+}
+
+
+
+/* logo and image */
+
+#logo{
+    padding: 0px 0px;
+    margin:1px 1px;
+
+}
+
+
+
+#logo img{
+    height: 85px;
+    width: 300px;
+    margin: 0px 1px;
+    padding: 0px 1px;
+}
+
+/* home section */
+#home{
+    display:flex;
+    flex-direction: column;
+padding: 2px 200px;
+justify-content: center;
+align-items: center;
+/* height: 600px; */
+height: 100vh;
+width: 100%;
+background-image: linear-gradient(rgba(103, 183, 253, 0.3),rgba(103, 183, 253, 0.3)),url('../images/hietcollege.jpg') ;
+background-repeat: no-repeat;
+background-size: 100% 100%;
+
+}
+#home::before{
+    content:" ";
+    /* background:url('../images/hietcollege.jpg') no-repeat center/cover; */
+    position: absolute;
+height: 100vh;
+width: 100%;
+z-index: -1;
+opacity: 0.7;
+
+}
+
+#home h1{
+    color: rgb(0, 0, 0);
+text-align: center;
+text-shadow: white;
+background-color: cornsilk;
+font-family: 'Russo One', sans-serif;
+
+}
+
+#home p{
+    color:black;
+    text-shadow:white;
+text-align: center;
+font-size: 1.8rem;
+font-family: 'Russo One', sans-serif;
+background-color: cornsilk;
+
+}
+
+/* POLLS  */
+#polls{
+margin:0px;
+text-align: center;
+width: 100%;
+background:white;
+opacity: 1;
+height: 500px;}
+
+
+
+#polls .candidate img{
+    height: 215px;
+    margin: auto;
+    border-radius: 20px;
+    display: block;
+
+    }
+
+  #polls h3 {
+        font-size: 1.5rem;
+    padding: 12px;
+    color:rgb(192, 12, 12);
+    
+    /* font-family: 'Russo One', sans-serif;
+    font-family: 'News Cycle', sans-serif; */
+    }
+
+
+    /* Developers Sections */
+#dev{
+margin: 25px;
+display: flex;
+}
+#dev .box{
+   width: 100%;
+    margin: 32px; border: rgb(134, 240, 226) solid;
+    border-radius: 80px;
+    background: white;
+}
+#dev .box img{
+    height: 350px;
+    border-radius: 80px;
+     
+}
+/* #dev{}
+#dev{} */
+
+.developers-container{
+    padding: 10px;
+}
+
+
+/* footer */
+footer{
+    background:rgb(167, 235, 226);
+    color: rgb(0, 0, 0);
+    padding:10px;
+}
+
+
+    /* utility classes */
+.h-primary{
+    font-size: 2rem;
+padding: 12px;
+
+font-family: 'Russo One', sans-serif;
+
+}
+.h-second{
+    font-size: 2.8rem;
+padding: 12px;
+font-family: 'Russo One', sans-serif;
+
+}
+
+.btn{
+    padding: 6px 20px;
+border: 2px solid;
+background-color: black;
+color: rgb(255, 255, 255);
+margin: 20px;
+font-size: 20px;
+border-radius: 10px;
+cursor: pointer;
+font-family: 'Russo One', sans-serif;
+}
+.btn:hover{
+    color:black;
+    background-color:white;
+}
+
+.center{
+    text-align: center;
+}
+
+.gap { 
+   background-color: rgb(94, 248, 228);
+   height: 3px;
+}
