@@ -166,14 +166,15 @@ display: flex;
 }
 #dev .box{
    width: 100%;
-    margin: 32px; border: rgb(134, 240, 226) solid;
-    border-radius: 80px;
+    margin: 76px; border: 5px rgb(134, 240, 226) solid;
+    border-radius: 54px;
     background: white;
+    align-items: center;
 }
 #dev .box img{
-    height: 350px;
-    border-radius: 80px;
-     
+    height: 300px;
+    border-radius: 50px;
+     align-items: center;
 }
 /* #dev{}
 #dev{} */
